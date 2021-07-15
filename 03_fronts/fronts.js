@@ -35,7 +35,17 @@ class SLL {
             return null;
         }
     }
+    display() {
+        var output = "";
+        var tempHead = this.head;
+        while(tempHead!=null) {
+            output += tempHead.value + ", "
+            tempHead = tempHead.next;
+        }
+        output = output.slice(0, -2);
+        return output;
 
+    }
     
 }
 
@@ -48,5 +58,5 @@ mySLL.addNodeToFront(10);
 console.log(mySLL);
 mySLL.addNodeToFront(20);
 console.log(mySLL);
-mySLL.removeNodeFromFront();
-console.log(mySLL);
+
+console.log(mySLL.display());
