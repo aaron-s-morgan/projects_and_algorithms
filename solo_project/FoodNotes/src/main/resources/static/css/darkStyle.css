@@ -1,0 +1,122 @@
+
+.blue {
+  color: rgb(0, 140, 255);
+}
+.white {
+  color: white;
+}
+.header {
+  padding: 20px 0px 10px 30px;
+}
+.header ul {
+
+  display: inline-block;
+  margin: 0 0 0 -79px;
+}
+.header li {
+  display: inline-block;
+  margin: 0 0 0 40px;
+  font-size: 22px;
+}
+.user-form {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	margin: 20px;
+}
+.event-details-side {
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	margin: 20px;
+	height: 500px;
+	padding: 10px;
+	background-color: #2a2a2a;
+}
+.l-and-r-side {
+	display: inline-block;
+	width: 350px;
+	vertical-align: top;
+	margin: 5px;
+	height: 450px;
+	padding: 10px;
+	background-color: #2a2a2a;
+}
+.messages{
+	border: solid #80ffff;
+	min-height: 300px;
+	max-height: 320px;
+	overflow-y: auto;
+	padding:10px;
+}
+.delete-form {
+	display: inline-block;
+}
+.card{
+	width: 300px;
+}
+.card-body{
+	background-color: #212322;
+}
+button, input{
+	color: blue;
+}
+h1{
+	color: #80ffff;
+}
+h2{color: rgb(139 192 241);
+}
+h3{color: rgb(139 192 241);
+}
+h4{color: #89f3e9;
+}
+h5{color: rgb(139 192 241);
+}
+p{color: #ffffff;
+}
+label{color: #ffffff;
+}
+.name{color:#64d0ff;
+}
+.yourname{color: #ff8000;
+}
+.right{text-align: right;
+	}
+body {
+  padding: 25px;
+  background-color: black;
+  color: black;
+}
+img{
+	border-radius:25px;
+	height:35px;
+}
+.profile{
+	height:150px;
+}
+.profileLarge{
+	height:220px;
+	max-width:300px;
+}
+.icon{
+	height:100px;
+	border-radius:5px;
+}
+.LOGO{
+	height:200px;
+}
+.container{
+	border: solid 3px rgb(0, 88, 139);
+	border-radius: 10px;
+	background: #062134;;
+}
+.headerLogo{
+	height:50px;
+	margin:-19px 0px 0px 0px;
+}
+.gold{
+	color: gold;
+}
+.col-md-8{
+	padding:0;
+}
